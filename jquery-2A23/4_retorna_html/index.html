@@ -9,26 +9,17 @@
     <!--Funcionalidades da página-->
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#listaOrdenadaUm li").css("color", "red");
-            $("#listaOrdenadaDois li").css("color", "green");
-            //$("ul").css("color", "blue");
-            $("p").css("color", "blue");
+           $(".content").html("<img width='500px'src=''>");
+
+           $("img").click(function(){
+            $(".hello").html("<h1>A imagem foi clicada</h1>")
+           })
         });
     
     </script>
 </head>
 <body>
-    <ul id="listaOrdenadaUm">
-        <li>Link 01</li>
-        <li>Link 02</li>
-        <li>Link 03</li>
-    </ul>
-
-    <ul id="listaOrdenadaDois">
-        <li>Link 01</li>
-        <li>Link 02</li>
-        <li>Link 03</li>
-    </ul>
+    
 
     <p>Texto</p>
 </body>
